@@ -1,0 +1,12 @@
+.font-disney {
+    font-family: waltograph;
+}
+ /* Disney */
+ @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'waltograph';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/waltograph42.otf'); /* IE9 Compat Modes */
+    src: url('../fonts/waltographUI.ttf');
+ }
