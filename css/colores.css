@@ -1,0 +1,45 @@
+.box-colores{
+    display: flex;
+    flex-direction: row;
+}
+.box-style{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1-red{
+    background-color:red;
+}
+.box2-chartreuse{
+    background-color: chartreuse;
+}
+.box3-darkgray{
+    background-color: darkgray;
+}
+.box4-rgb {
+    background-color: rgb(119, 153, 100);
+}
+.box5-rgb{
+    background-color: rgb(228, 160, 160);
+}
+.box6-rgb{
+    background-color: rgb(200, 138, 61);
+}
+.box7-hexadecimal{
+    background-color: #ADFF2F;
+}
+.box8-hexadecimal{
+    background-color: #DC143C;
+}
+.box9-hexadecimal{
+    background-color: #F5DEB3;
+}
