@@ -1,12 +1,22 @@
+div {
+    background-color: rgb(3, 13, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .font-disney {
-    font-family: waltograph;
+    font-family: 'waltograph';
+    font-size: 14em;
+    color: whitesmoke;
 }
  /* Disney */
- @font-face {
+@font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'waltograph';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     src: url('../fonts/waltograph42.otf'); /* IE9 Compat Modes */
-    src: url('../fonts/waltographUI.ttf');
+    src: url('../fonts/waltographUI.ttf') format('embedded-opentype'), /* IE6-IE8 */
+        /* url('../fonts/cinzel-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
  }
