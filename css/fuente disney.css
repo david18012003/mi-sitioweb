@@ -1,0 +1,39 @@
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+      
+    }
+    * {
+        margin: 0;
+        border: 0;
+    }
+    label{
+        font-size: 3em;
+        color: antiquewhite;
+    }
+    body{
+        background-color: rgb(37, 65, 138);
+        background-color: center;
+        background-color: rgb(18, 27, 65);
+
+    }
+    .fuente3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 100px;
+        font-weight: 100;
+    }
+    @font-face {
+        font-family: "waltograph";
+        src: url(../fuentes/waltograph42.otf);
+    }
+    .fuente3{
+        font-family: "waltograph";
+    }
