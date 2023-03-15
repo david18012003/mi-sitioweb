@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+    color: black
+}
+h1{
+    text-align: center;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+}
+.box-style{
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: justify;
+    font-size: 1.3em;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1.4em;
+
+}
+.box-1{
+    border: 12px solid rgb(64, 64, 64,.9);
+}
+/* borde dashed*/ 
+.box-2{
+    border: 12px dashed darkcyan;
+}
+/*borde dotted*/
+.box-3{
+    border: 2px dotted goldenrod;
+}
+/*borde double*/
+.box-4{
+    /*border-style: double;*/
+    border: 5px double black;
+}

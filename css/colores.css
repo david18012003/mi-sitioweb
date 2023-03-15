@@ -2,23 +2,29 @@ a{
     text-decoration: none;
     color: black
 }
+body{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
 .box-colores{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
 }
 .box-style{
-    display: flex;
+    display: inline-block;
     width: 300px;
     height: 300px;
     margin: 20px;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
 }
 span{
     color: white;
     font-size: 1.6em;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 .box1-red{
     background-color:red;
