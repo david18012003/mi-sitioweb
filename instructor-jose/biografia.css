@@ -1,0 +1,38 @@
+body{
+    background-image: url(../instructor-jose/imagen\ de\ fondo\ para\ biografia\ .jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+}
+.box-style{
+    width: 400px;
+    margin: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: justify;
+    font-size: 1.3em;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1.4em;
+
+}
+.box-1{
+    border: 10px double #FF00FF;
+}
+img {
+    width: 230px;
+    height: 230px;
+}
+p{
+    color: white;
+    text-align: center;
+}
