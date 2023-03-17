@@ -1,0 +1,32 @@
+body{
+    background-image: url(../instructor-jose/imagen\ de\ fondo\ para\ biografia\ .jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background-color: #f0f0f0;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-position: center;
+  }
+  td {
+    background-color: #f2f2f2;
+    padding: 8px;
+    border: 1px solid black;
+
+  }
+  img{
+    width: 70px;
+    height: 70px;
+    margin: 0;
+  }
+  h1{
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  .numero{
+    text-align: center;
+  }
