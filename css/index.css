@@ -1,0 +1,19 @@
+.todo{
+    text-align: center;
+    align-items: center;
+}
+h1{
+    background-color: rgba(124, 156, 198, 0.656);
+    color: rgb(0, 110, 255);
+}
+h2{
+    color: black;
+    background-color: rgba(86, 85, 85, 0.872);
+}
+h3{
+    color: rgb(0, 255, 170);
+    background-color: rgba(174, 243, 238, 0.787);
+}
+.main-box{
+    margin: unset;
+}
