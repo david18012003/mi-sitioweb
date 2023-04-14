@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(38, 0, 255, 0.421);
+    /*background-image: url(../img/125535-humo_de_colores-500x.jpg);*/
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.487);
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+input{  
+    border: 5px rgb(255, 255, 255);
+    background-color: rgb(4, 180, 207);
+    color: rgb(255, 255, 255)
+
+}
+h4{
+    display: inline-block;     
+    color: rgb(255, 255, 255);
+                                  
+}
+div{
+   
+    width: 450px;
+    border:12px solid rgb(64, 64, 64,.9);
+    background-color: beige;
+    background-image: url(../img/parking.jpg);
+}

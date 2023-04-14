@@ -1,0 +1,30 @@
+body{
+    background-color: blue;
+    /*background-image: url(../img/125535-humo_de_colores-500x.jpg);*/
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: rgb(168, 137, 58);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+input{  
+    border: 5px rgb(0, 0, 0);
+    background-color: rgb(207, 4, 4);
+    color: rgb(255, 255, 255)
+
+}
+h4{
+    display: inline-block;     
+    color: rgb(0, 0, 0);
+                                  
+}
+div{
+    width: 450px;
+    border:12px solid rgb(64, 64, 64,.9);
+    background-color: beige;
+}
