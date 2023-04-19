@@ -1,3 +1,10 @@
+th,td{
+    text-align: center;
+    border: 2px rgb(255, 255, 255);
+    color: black;
+    background-color: white;
+}
+
 body{
     background-color: rgba(38, 0, 255, 0.421);
     /*background-image: url(../img/125535-humo_de_colores-500x.jpg);*/

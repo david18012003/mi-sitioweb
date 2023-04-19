@@ -12,6 +12,7 @@ th,td{
     border:1px solid rgb(64,64,64);
     padding: 10px 15px 8px 15px;
     text-align: center;
+    color: white;
 }
 table{
     border-radius: 20px;
@@ -23,12 +24,38 @@ table{
     justify-content: center
 }
 .dc-color{
-    background-color: blue;
+    background-color: rgba(88, 88, 244, 0.818);
     border-top-left-radius: 20px;
     color: white;
 }
 .dc-colo{
+    background-color: rgba(88, 88, 244, 0.818);
+    border: 20px;
+    color: white;
+}
+.letraNegra{
+    color: black;
+}
+.verde{
+    background-color: green;
+}
+.azul{
     background-color: blue;
+}
+.naranja{
+    background-color: orange;
+}
+.morado{
+    background-color: blueviolet;
+    border-top-right-radius: 20px;
+}
+.letraNegra1{
+    color: black;
+    border-bottom-right-radius: 20px;
+}
+.dc-col{
+    border-bottom-left-radius: 20px;
+    background-color: rgba(88, 88, 244, 0.818);
     border: 20px;
     color: white;
 }
