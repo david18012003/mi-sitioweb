@@ -16,8 +16,8 @@ th,td{
 }
 table{
     border-radius: 20px;
-   /* border-collapse: collapse;
-   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    /*border-collapse: collapse;*/
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .table-box{
     display: flex;
