@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: rgb(153, 205, 226);
+    color: aquamarine;
+}
+button{
+    background-color: rgba(163, 253, 74, 0.508);
+    color: rgba(255, 0, 0, 0.364);
+}
+form{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+p{
+    color: black;
+}

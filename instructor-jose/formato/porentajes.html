@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos</title>
+    <link rel="stylesheet" href="./css/porcentajes.css">
+</head>
+<body>
+    
+ <div class="main-box">
+    <h1>Catalogo de productos</h1>
+    <h2>cantidad de producto</h2>
+    <div>
+        <input type="number" id="cantidad" placeholder="cantidad de producto">
+    </div>
+    <div>
+        <h2>Valor de producto</h2>
+        <input type="number" id="valor" placeholder="valor de producto">
+    </div>
+    <select name="Descuento" id="quince">
+        <option value="quince1" id="quince" onclick="quince()">15% de descuento</option>
+        <option value="cincuenta1" id="cincuenta" onclick="cincuenta()">50% de descuento</option>
+        <option value="sin1" id="sin" onclick="sinDescuento()">sin descuento</option>
+    </select>
+
+    <button></button>
+
+    <!-- <button onclick="quince()" >15% de Descuento</button>
+    <button onclick="cincuenta()">50% de Descuento</button> -->
+    <!-- <button onclick="sinDescuento()" >valor de producto</button> -->
+
+
+    <p id="sin"></p>
+
+
+    <script src="./js/porcentajes.js"></script>
+
+</div>
+</body>
+</html>
