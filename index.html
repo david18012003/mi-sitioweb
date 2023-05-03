@@ -4,29 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi sitio web</title>
-    <link rel="stylesheet" href="../mi-sitioweb/css/index.css">
+    <title>Pagina web</title>
+    <link rel="stylesheet" href="css/index2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="box">
-    <div class="todo">
-   <h1>Mis sitio web</h1> 
-   <h2>Autor: <a href="portafolio.html" class="nombre">Cesar David Carrillo</a> </h2>
-   <!-- lista ordenada (ordered list)-->
-   <h3>Menu</h3>
-   <ul>
-    <li><a href="NETFLIX.html">Fuente NETFLIX</a></li>
-    <li><a href="Disney.html">Fuente Disney</a></li>
-    <li><a href="GAME OF THRONES.html">Fuente game of thrones</a></li>
-    <li><a href="colores.html">colores</a></li>
-    <li><a href="../mi-sitioweb/instructor-jose/modulos.html">Modulos</a></li>
-    <li><a href="../mi-sitioweb/margins.html">Margins</a></li>
-    <li><a href="../mi-sitioweb/catalogo.html">Catalogo</a></li>
-    <li><a href="../mi-sitioweb/tabla.html">Tablas</a></li>
-    <li><a href="./formulario.html">Formulario</a></li>
-    <li><a href="./menu_iconos.html">Menú íconos</a></li>
-   </ul>
-</div>
-</div>
+    <header class="header" id="inicio">
+        <img src="iconos/bx-menu.svg" alt="" class="menu">
+        <nav class="menu-navegacion">
+            <a href="#inicio">inicio</a>
+            <a href="#servicio">Trabajos</a>
+            <a href="#portafolio">portafolio</a>
+            <!-- <a href="#expertos">expertos</a> -->
+            <a href="#contacto">contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Mi portafolio.</h1>
+            <p class="copy">Cesar David Carrillo Rodriguez.</p>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Mis trabajos</h2>
+            <div class="contenedor-servicio">
+                <img src="iconos/Designer _Flatline.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <he class="n-service"><span class="number">1</span>Fuentes</he>
+                        <p>En el uso moderno, fuente, del inglés “font”, es el conjunto de modelos (letras, signos y otras marcas) que representan a cada uno de los caracteres de una letra, con base en un diseño particular.
+                           <p><a href="./NETFLIX.html">NETFLIX:</a>La fuentes usada es Bebas Neue </p> 
+                            <p><a href="./Disney.html">Disney:</a> La fuente usada es Waltograph </p>
+                            <p><a href="./GAME OF THRONES.html">GAME OF THRONES:</a>La fuente usada es Cinzel </p>
+                        </p>
+                    </div>
+                    <div class="service">
+                        <he class="n-service"><span class="number">2</span>Colores</he>
+                        <p>Los colores web son aquellos colores que aparecen en una página web. Se pueden basar sobre los sistemas de color RGB o HSL. <p>Actividad: <a href="colores.html">Colores</a>
+                        </p></p>
+                    </div>
+                    <div class="service">
+                        <he class="n-service"><span class="number">3</span>Margin</he>
+                        <p>La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen. <p>Actividad: <a href="margins.html">Margin</a></p></p>
+                    </div>
+                    <div class="service">
+                        <he class="n-service"><span class="number">4</span>Catalogo</he>
+                        <p>La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen. <p>Actividad: <a href="catalogo.html">Catalogo</a></p></p>
+                    </div><div class="service">
+                        <he class="n-service"><span class="number">5</span>Formulario</he>
+                        <p>La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen. <p>Actividad: <a href="formulario.html">Formulario</a></p></p>
+                    </div><div class="service">
+                        <he class="n-service"><span class="number">6</span>Tabla</he>
+                        <p>La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen. <p>Actividad: <a href="tabla.html">Tabla</a></p></p>
+                    </div>
+                    <div class="service">
+                    <he class="n-service"><span class="number">7</span>Iconos</he>
+                    <p>Implementar los iconos en tus páginas HTML es muy sencillo. Solamente tienes que conseguir tu icono y ponerlo en el directorio raiz de tu servidor. Por defecto, y sin necesidad de escribir nada en el código HTML de la página, los navegadores solicitan al servidor un fichero de icono llamado favicon.<p>Actividad: <a href="menu_iconos.html">Iconos</a></p></p>
+                </div>
+                </div>
+                </div>
+            </div>  
+        </section>
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-servicio">
+                    <img src="img/disney.png" alt="" class="img-galeria">
+                    <img src="img/formulario.png" alt="" class="img-galeria">
+                    
+                    <img src="img/margen.png" alt="" class="img-galeria">
+                    <img src="img/catalogo.png" alt="" class="img-galeria">
+                    <img src="img/tabla.png" alt="" class="img-galeria">
+                    <img src="img/color.png" alt="" class="img-galeria">
+                    <!-- <img src="img/formulario.png" alt="" class="img-galeria"> -->
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+         <img src="iconos/bx-x.svg" alt="" class="close">
+            <img src="../pagina_web_html,_css,_js/img/stady.jpg" alt="" class="agregar-imagen">
+        </section> 
+        <!-- <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="iconos/Analytics team_Monochromatic.svg" alt="">
+                    <h3 class="n-expert">Analytics</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="iconos/SEO_Flatline.svg" alt="">
+                    <h3 class="n-expert">SEO</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="iconos/Security_Outline.svg" alt="">
+                    <h3 class="n-expert">Security</h3>
+                </div>
+            </section> -->
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">David Carrillo</h2>
+                <p>Aprendiz de Analisis y Desarrollo de Software </p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-whatsapp' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    
+    
+   
+    
+    <script src="javascript/menu.js"></script>
+    <script src="javascript/lightbox.js"></script>
 </body>
 </html>
