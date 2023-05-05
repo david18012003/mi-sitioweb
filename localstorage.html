@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localstorage</title>
+    <link rel="stylesheet" href="css/localstorage.css">
+    <script defer src="javascript/localstorage.js"></script>
+</head>
+<body>
+    <h1>Ficha tecnica</h1>
+    <input type="text" id="nombre" placeholder="Nombre"><br><br>
+    <input type="text" id="apellido" placeholder="Apellido"><br><br>
+    <input type="date" id="fnacimiento" placeholder="Fecha"><br><br>
+    <input type="text" id="correo" placeholder="Correo"><br><br>
+    <input type="number" id="telefono" placeholder="Telefono"><br><br>
+    <button onclick="almacenarData()">Guardar</button>
+    <hr>
+    <p>Nombre almacanado: <c id="datoNombre"></c></p>
+    <p>Apellido almacenado: <c id="datoApellido"></c></p>
+    <p>Fecha almacenada: <c id="datoFecha"></c></p>
+    <p>Correo almacenado: <c id="datoCorreo"></c></p>
+    <p>Numero telefonico almacenada: <c id="datoTelefono"></c></p>
+    <p>
+        <button onclick="cargarData()">Cargar elementos</button> 
+         <a href="fichas_tecnicas.html" target="_blank" ><button onclick="cargarData()">Continuar</button> </a>
+    </p>
+    <hr>
+  
+</body>
+</html>
