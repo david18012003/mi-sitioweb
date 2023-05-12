@@ -4,29 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Localstorage</title>
+    <title>Ficha T</title>
     <link rel="stylesheet" href="css/localstorage.css">
     <script defer src="javascript/localstorage.js"></script>
 </head>
 <body>
     <h1>Ficha tecnica</h1>
-    <input type="text" id="nombre" placeholder="Nombre"><br><br>
-    <input type="text" id="apellido" placeholder="Apellido"><br><br>
-    <input type="date" id="fnacimiento" placeholder="Fecha"><br><br>
-    <input type="text" id="correo" placeholder="Correo"><br><br>
-    <input type="number" id="telefono" placeholder="Telefono"><br><br>
+    <input type="text" id="nombre" placeholder="Nombre del producto"><br><br>
+    <input type="text" id="apellido" placeholder="Linea de produccion"><br><br>
+    <input type="text" id="fnacimiento" placeholder="versiones anteriores"><br><br>
+    <input type="text" id="correo" placeholder="versiones actuales"><br><br>
+    <input type="text" id="telefono" placeholder="Módulo"><br><br>
+
+    <h2>Descripción del producto</h2>
+    <input type="text" id="producto" placeholder="descripcion general del Producto"><br><br>
+    
+    <h2>Arquitectura</h2>
+    <input type="text" id="arquitectura" placeholder="Descripción"><br><br>
+    
+    <h2>Requerimientos del producto</h2>
+    <input type="text" id="servidorP" placeholder="servidor"><br><br>
+    <input type="text" id="hardwareP" placeholder="Hardware"><br><br>
+    <input type="text" id="softwareP" placeholder="Software"><br><br>
+    <input type="text" id="recomendacionesP" placeholder="Recomendaciones"><br><br>
+    
+    <h2>Requisitos del sistema (Cliente)</h2>
+    <input type="text" id="servidorC" placeholder="servidor"><br><br>
+    <input type="text" id="hardwareC" placeholder="Hardware"><br><br>
+    <input type="text" id="softwareC" placeholder="Software"><br><br>
+    <input type="text" id="recomendacionesC" placeholder="Recomendaciones"><br><br>
+    
+    <h2>Requerimientos</h2>
+    <input type="text" id="requerimientosG" placeholder="Requerimientos Generales"><br><br>
+    <input type="text" id="requerimientosA" placeholder="Requerimientos adicionales"><br><br>
+    <input type="text" id="cliente" placeholder="Clientes del producto"><br><br>
+    
     <button onclick="almacenarData()">Guardar</button>
-    <hr>
-    <p>Nombre almacanado: <c id="datoNombre"></c></p>
+    <!-- <p>Nombre almacanado: <c id="datoNombre"></c></p>
     <p>Apellido almacenado: <c id="datoApellido"></c></p>
     <p>Fecha almacenada: <c id="datoFecha"></c></p>
     <p>Correo almacenado: <c id="datoCorreo"></c></p>
     <p>Numero telefonico almacenada: <c id="datoTelefono"></c></p>
-    <p>
-        <button onclick="cargarData()">Cargar elementos</button> 
-         <a href="fichas_tecnicas.html" target="_blank" ><button onclick="cargarData()">Continuar</button> </a>
-    </p>
-    <hr>
+    <p>Descripcion general del Producto: <c id="datoProducto"></c></p>
+    <p>Descripcion: <c id="datoArquitectura"></c></p>
+    <p>Requisitos del sistema(servidor): <c id="datoServidorP"></c></p>
+    <p>Hardware: <c id="datoHardwareP"></c></p>
+    <p>Software: <c id="datoSoftwareP"></c></p>
+      <p>Recomendaciones: <c id="datoRecomendacionesP"></c></p>
+    <p>Requisitos del sistema(servidor): <c id="datoServidorC"></c></p>
+    <p>Hardware: <c id="datoHardwareC"></c></p>
+    <p>Software: <c id="datoSoftwareC"></c></p>
+    <p>Recomendaciones: <c id="datoRecomendacionesC"></c></p>
+      <p>Requerimientos Generales: <c id="datoRequerimientosG"></c></p>
+    <p>Requerimientos Adicionales: <c id="datoRequerimientosA"></c></p>
+    <p>Clientes del producto: <c id="datoCliente"></c></p> -->
+        <!-- <button onclick="cargarData()">Cargar elementos</button>  -->
+         <a href="fichas_tecnicas.html" target="_blank" ><button >Continuar</button> </a>
+    </p><br>
+    <button onclick="clearlocalStore()">Borrar Almacenamielto</button><br>
   
+    <!-- <script defer src="javascript/localstorage.js"></script> -->
 </body>
 </html>
