@@ -1,0 +1,15 @@
+.box-1{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 25px;
+    transition: all 3000ms;
+    position: fixed;
+}
+.box-1:hover{
+    /* height: 800px;
+    width: 900px; */
+    left: 0;
+    cursor: pointer;
+    background-color: blanchedalmond;
+}

@@ -2,52 +2,63 @@
     margin: 0;
     padding: 0;
 }
-.a,img{
-    list-style: none;
-    /* background-color: rgb(246, 246, 245); */
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    color: rgba(32, 2, 2, 0.836);
-    float: right;
-    cursor: pointer;
-    
-}
 .img{
     float: left;
+    list-style: none;
 }
-ul{
-    margin-bottom: 10px;
+.main-nav{
+    background-color: rgba(64,64,64);
+    height: 120px;
 }
-.a{
-    padding: 25px;
-    /* border: 1px solid rgb(146, 146, 146); */
+.main-menu{
+    width: 100%;
+    text-align: right;
 }
-.a:hover{
-    background-color: rgb(255, 0, 0);
-    color: #ffffff;
-    border-radius: 15px;
+.item-style{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 30px;
+    list-style: none;
+    padding-top: 30px;
 }
-.menu {
-    display: none;
-    float: right;
+.item-style-last{
     margin-right: 100px;
 }
 a{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1.5em;
     text-decoration: none;
-    color: #000000   ;
+}
+.hamburguer-menu{
+    display: none;
 }
 @media only screen and (max-width: 1000px) {
     /* desaparecemos el menú */
-    .a{
+    .main-menu{
         display: none;
-        
     }
-    .menu {
-
+    .main-menu-block{
+        
+        display: block;
+        background-color: rgba(48,48,48,.8);
+        padding: 25px;
+        height: 600px;
+    }
+    .item-style{
+        display: block;
+    }
+    .hamburguer-menu{
         display: inline-block;
-        /* color: rgb(0, 0, 0); */
+        color: white;
         font-size: 2.3em;
         margin-top: 10px;
         margin-left: 25px;
+        float: right;
+        padding: 20px;
+
+    }
+    .hamburguer-menu:hover{
+        cursor: pointer;
     }
 }
