@@ -1,0 +1,62 @@
+/* Estilo del contenedor */
+.toggle-container {
+    display: inline-block;
+  }
+  
+  /* Estilo del botón de alternancia */
+  .toggle-input {
+    display: none;
+  }
+  
+  /* Estilo del indicador del botón */
+  .toggle-label {
+    display: block;
+    width: 60px; /* Ajusta el ancho según tus necesidades */
+    height: 30px; /* Ajusta la altura según tus necesidades */
+    background-color: #7c7c7c; /* Color de fondo del botón inactivo */
+    border-radius: 15px; /* Ajusta el radio de borde según tus necesidades */
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilo del indicador cuando el botón está activado */
+  .toggle-input:checked + .toggle-label {
+    background-color: #00ff00; /* Color de fondo del botón activo */
+  }
+  
+  /* Estilo del texto "Yes" o "No" */
+  .toggle-label::before {
+    content: 'No'; /* Texto para el estado inactivo */
+    position: absolute;
+    top: 50%;
+    left: auto;
+    transform: translateY(-50%);
+    color: #fff; /* Color del texto */
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
+  
+  /* Estilo del texto cuando el botón está activado */
+  .toggle-input:checked + .toggle-label::before {
+    content: 'Yes'; /* Texto para el estado activo */
+    left: auto;
+    right: 10px;
+  }
+   /* Estilo del círculo indicador del estado */
+   .toggle-label::after {
+    content: '';
+    position: absolute;
+    width: 30px; /* Ajusta el ancho según tus necesidades */
+    height: 30px; /* Ajusta la altura según tus necesidades */
+    background-color: #fff; /* Color del círculo indicador */
+    border-radius: 50%; /* Hace que el círculo sea redondo */
+    top: 2px; /* Ajusta la posición vertical según tus necesidades */
+    left: 2px; /* Ajusta la posición horizontal según tus necesidades */
+    transition: left 0.3s;
+  }
+  
+  /* Posición del círculo indicador cuando el botón está activado */
+  .toggle-input:checked + .toggle-label::after {
+    left: calc(100% - 30px); /* Mueve el círculo hacia la derecha */
+  }
