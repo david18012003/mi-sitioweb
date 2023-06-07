@@ -3,7 +3,7 @@
 let toggleBox = document.getElementById("toggleBox");
 let choiceBox = document.getElementById("choiceBox");
 // 2 verificar que clase se encuentra en choice-box
-toggleBox.addEventListener("click", function()){
+toggleBox.addEventListener("click", function(){
     if (choiceBox.classList.contains("choiceBox")){
         choiceBox.classList.add("choice-box-on");
         choiceBox.classList.remove("choice-box-off");
@@ -17,7 +17,7 @@ toggleBox.addEventListener("click", function()){
         toggleBox.classList.add("toggle-box-on");
 
     }
-}
+})
 
 // 2,1 al dar click quitamos la clase por defecto de choice-box y agragamos la clase que venia con el hover de choice-box
 
