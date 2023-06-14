@@ -4,7 +4,7 @@
 .toggle-box-on{
     width: 250px;
     height: 120px;
-    background-color: rgb(52, 198, 57);
+    background-color: rgb(87, 87, 87);
     border-radius: 55px;
     transition: all 400ms ;
     cursor: pointer;
@@ -15,7 +15,7 @@
     border-radius: 55px;
     transition: all 400ms ;
     cursor: pointer;
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(36, 216, 0);
 }
 .choice-box-off{
     position: relative;
@@ -24,7 +24,7 @@
     left: 5px;
     top: -32px;
     border-radius: 55px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     transition: all 400ms;
 }
 .choice-box-on{
@@ -34,7 +34,7 @@
     left: 132px;
     top: -32px;
     border-radius: 55px;
-    background-color: white;
+    background-color: rgb(141, 0, 0);
 }
 .text-on-off{
     font-size: 2em;
