@@ -3,50 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito</title>
+    <title>Carrito de compras</title>
     <link rel="stylesheet" href="css/carrito.css">
-    <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
-    <div class="main-content">
-        <div class="box-subtotal">
-            <label>Subtotal cop</label>
-            <label id="subtotal">0</label>
+    <div class="card">
+        <div class="total">
+            <p>Subtotal cop<span id="total">0</span></p>
         </div>
-        <div class="box-proceder-pago">
-            <label>Proceder al pago</label>
-            <label class="productos">(<label id="productos">0</label> productos)</label>
+        <div class="pay">
+            <p>Proceder al pago (<span id="cant-product"></span>)</p>
         </div>
-        <div class="product-content">
-            <div class="imagen">
+        <div class="content">
+            <div class="img">
                 <img src="img/javascript-libro.jpg" alt="">
+                <div class="interaction">
+                    <button id="btnDecrement">-</button>
+                    <input type="number" name="cantidad" id="cantidad" readonly value="0">
+                    <button id="btnIncrement">+</button>
+                </div>
             </div>
-            <div class="informacion">
-                <span class="info">
-                    Javascript The Definitive Guide Master the Word's Most-Used Programing Language
-                </span>
-                <span class="autor">
-                    David Flanagan
-                </span>
-                <span>Tapa blanda</span>
-                <span id="precio">
-                    112.350.00
-                </span>
-                <label>cop</label>
-            </div>
-            <div class="buttons-cantidad">
-                <button id="menos">-</button>
-                <input id="cantidad" type="number" readonly value="0">
-                <button id="mas">+</button>
+            <div class="resume">
+                <p class="book-title">Javascript The Definitive Guide Master the Word's Most-Used Programing Language</p>
+                <p class="author">David Flanagan</p>
+                <p>Contact</p>
+                <p class="price"><span id="precio">210000</span>cop</p>
+                <button id="eliminar">Eliminar</button>
+                <button>Guardar para mas tarde</button>
             </div>
         </div>
-        
     </div>
-
-
-
-
     <script src="javascript/carrito.js"></script>
-    
 </body>
+
 </html>

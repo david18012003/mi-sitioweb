@@ -1,41 +1,45 @@
-var menos, mas, cantidad, subtotal, productos, precio
+var input = document.querySelector("#cantidad")
+var incrementBtn = document.querySelector("#btnIncrement")
+var decrementBtn = document.querySelector("#btnDecrement")
+var precio = document.querySelector("#precio")
+var total = document.querySelector("#total")
+var deleteBtn = document.querySelector("#eliminar")
+var cantProduct = document.querySelector("#cant-product")
 
-menos = document.getElementById("menos");
-mas = document.getElementById("mas");
-cantidad = document.getElementById("cantidad");
-subtotal = document.getElementById("subtotal");
-productos = document.getElementById("productos");
-precio = document.getElementById("precio");
+incrementBtn.addEventListener("click", function () {
+    let auxCant = parseInt(input.value)
+    if (auxCant < 10) {
+        auxCant++
+        input.value = auxCant
+    }
+    if (auxCant == 1) {
+        var valor_producto = parseInt(precio.innerHTML)
+        total.innerHTML = valor_producto
+        cantProduct.innerHTML = "1 Producto"
 
-mas.addEventListener("click", function () {
-
-    let auxCant = parseInt(cantidad.value);
-    let auxTotal = parseFloat(precio.innerHTML);
-        
-    if (auxCant < 10 )  {
-        auxCant++;
-        cantidad.value = auxCant;
-
-        subtotal.innerHTML = auxCant * auxTotal;
-
-
-        productos.innerHTML = auxCant;
-
-        
+    } else {
+        var total_nuevo = auxCant * parseInt(precio.innerHTML)
+        total.innerHTML = total_nuevo
+        cantProduct.innerHTML = `${auxCant} Productos`
     }
 })
-menos.addEventListener("click", function () {
 
-    let auxCant = parseInt(cantidad.value);
-    let auxTotal = parseFloat(precio.innerHTML);
-    if (auxCant > 0 )  {
-        auxCant--;
-        cantidad.value = auxCant;
 
-        subtotal.innerHTML = auxCant + auxTotal;
-
-        productos.innerHTML = auxCant;
-
-        
+decrementBtn.addEventListener("click", function () {
+    let auxCant = parseInt(input.value)
+    if (auxCant == 0) {
+        return;
     }
+    if (auxCant <= 10) {
+        auxCant--
+        input.value = auxCant
+        var precio_producto = parseInt(precio.innerHTML)
+        var total_actual = parseInt(total.innerHTML)
+        cantProduct.innerHTML = `${auxCant} Productos`
+        total.innerHTML = total_actual - precio_producto 
+    }
+})
+
+deleteBtn.addEventListener("click", function () {
+    window.location.reload()
 })

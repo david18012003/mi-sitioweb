@@ -1,48 +1,108 @@
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
-.main-content{
-    width: 900px;
-    /* height: 100%; */
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 2px solid black;
-    margin: 10px 0 0 10px;
-}
-.box-subtotal{
-    padding: 20px;
-    font-size: 1.4em;
-}
-.box-proceder-pago{
 
-    height: 55px;
+body {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(247,231,8);
-    border-radius: 10px;
-    border: 1px solid transparent;
-    font-size: 1.4em;
-    margin: 0 20px 20px 20px;
 }
-#subtotal,.productos{
-    font-size: 1.8em;
-    font-weight: 500;
-}
-.imagen{
-    margin: 3px;
-}
-.informacion{
-    display: flex;
-    justify-content: end;
-    align-items: end;
 
+.card {
+    width: 35%;
+    height: auto;
+    border: 1px solid rgba(128, 128, 128, 0.306);
+    padding: 20px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
-.product-content{
-    display: grid;
+
+.card > .total > p {
+    font-size: 25px;
 }
-.informacion{
-    grid-area: informacion;
-    background-color: yellowgreen;
+
+.card > .pay {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(179, 255, 103);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > .pay:hover {
+    background-color: rgb(72, 206, 0);
+    transition: .5s all linear;
+}
+
+.card > .pay > p {
+    font-size: 20px;
+}
+
+.card > .pay:hover > p {
+    color: white;
+}
+
+.card > .content {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.card > .content > .img {
+    width: min-content;
+}
+
+.card > .content > .img > .interaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card > .content > .img > .interaction button,
+.card > .content > .img > .interaction input {
+    height: 60px;
+    width: 60px;
+}
+
+.card > .content > .img > .interaction input {
+    text-align: center;
+    font-size: 20px;
+}
+
+.card > .content > .img > .interaction button {
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.card > .content > .resume {
+    width: 60%;
+}
+
+.card > .content > .resume > .book-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card > .content > .resume > .author {
+    font-size: 20px;
+}
+
+.card > .content > .resume > p {
+    margin-bottom: 20px;
+}
+
+.card > .content > .resume > .price {
+    font-size: 40px;
+}
+
+.card > .content > .resume > button {
+    padding: 15px;
 }
