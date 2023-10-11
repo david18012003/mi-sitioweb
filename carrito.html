@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="stylesheet" href="icons/all.css">
+</head>
+<body>
+    <div class="main-content">
+        <div class="box-subtotal">
+            <label>Subtotal cop</label>
+            <label id="subtotal">0</label>
+        </div>
+        <div class="box-proceder-pago">
+            <label>Proceder al pago</label>
+            <label class="productos">(<label id="productos">0</label> productos)</label>
+        </div>
+        <div class="product-content">
+            <div class="imagen">
+                <img src="img/javascript-libro.jpg" alt="">
+            </div>
+            <div class="informacion">
+                <span class="info">
+                    Javascript The Definitive Guide Master the Word's Most-Used Programing Language
+                </span>
+                <span class="autor">
+                    David Flanagan
+                </span>
+                <span>Tapa blanda</span>
+                <span id="precio">
+                    112.350.00
+                </span>
+                <label>cop</label>
+            </div>
+            <div class="buttons-cantidad">
+                <button id="menos">-</button>
+                <input id="cantidad" type="number" readonly value="0">
+                <button id="mas">+</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="javascript/carrito.js"></script>
+    
+</body>
+</html>

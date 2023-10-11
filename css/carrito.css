@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    width: 900px;
+    /* height: 100%; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px 0 0 10px;
+}
+.box-subtotal{
+    padding: 20px;
+    font-size: 1.4em;
+}
+.box-proceder-pago{
+
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247,231,8);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 1.4em;
+    margin: 0 20px 20px 20px;
+}
+#subtotal,.productos{
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.imagen{
+    margin: 3px;
+}
+.informacion{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+.product-content{
+    display: grid;
+}
+.informacion{
+    grid-area: informacion;
+    background-color: yellowgreen;
+}
