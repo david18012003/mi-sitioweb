@@ -595,6 +595,14 @@ main.visible{
   border: none;
   border-radius: 20px;
 }
+.calificacionTienda{
+    color: rgb(92, 194, 160);
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(92, 194, 160);
+  }
 
 /* poppins-300 - latin */
 @font-face {
@@ -652,5 +660,6 @@ main.visible{
     font-weight: 900;
     src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
 /* Fonts */
 /* subir a git rapido */

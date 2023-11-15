@@ -3,7 +3,7 @@ let img1 = document.getElementById("img-1")
 let img2 = document.getElementById("img-2")
 let img3 = document.getElementById("img-3")
 let img4 = document.getElementById("img-4")
-let img5 = document.getElementById("img-5")
+let start = document.getElementById("start")  
 let modal = document.getElementById("box-modal")
 let close = document.getElementById("close")
 
@@ -12,7 +12,6 @@ let image1 = document.getElementById("image-1")
 let image2 = document.getElementById("image-2")
 let image3 = document.getElementById("image-3")
 let image4 = document.getElementById("image-4")
-let image5 = document.getElementById("image-5")
 
 function active(imga){
     var image = document.querySelectorAll(".imagesReducidas")
@@ -46,12 +45,7 @@ image4.addEventListener("mouseover", function() {
     imagePrincipal.src = image4.src
     active(image4)
 })
-image5.addEventListener("mouseover", function() {
 
-    imagePrincipal.src = ''
-    imagePrincipal.src = image5.src
-    active(image5)
-})
 
 window.onload = () => {
     modal.classList.remove("box-modal")
@@ -94,14 +88,6 @@ img4.addEventListener("click", function() {
     imgMain.src = ''
     imgMain.src = img4.src
     setActive(img4)
-    
-})
-
-img5.addEventListener("click", function() {
-    
-    imgMain.src = ''
-    imgMain.src = img5.src
-    setActive(img5)
     
 })
 
