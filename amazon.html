@@ -3,79 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
+    <title> Amazon compras </title>
     <link rel="stylesheet" href="css/amazon.css">
     <link rel="stylesheet" href="icons/all.css">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"> -->
+    
 </head>
 <body>
-   <div id="navbar">
-       <h1><img src="img/amazon.png" alt=""><a href="https://www.google.com/maps/place/Colombia/@4.6365857,-79.6344677,6z/data=!3m1!4b1!4m6!3m5!1s0x8e15a43aae1594a3:0x9a0d9a04eff2a340!8m2!3d4.570868!4d-74.297333!16zL20vMDFsczI?entry=ttu"><img src="img/envio.png" alt=""></a>
-        </h1>
-        <div class="busqueda">
-       <select  id="">
-        <option value="a">Todos</option>
-        <option value="s"></option>
-       </select>
-       <input type="text" class="barra">
-       <button class="lipa"><i class="fa-solid fa-magnifying-glass"></i></button>
+    
+    <header>
+        <div class="header-logo">
+            <img class="img-main-logo" src="img/amazon.png" alt="">
         </div>
-       <ul>
-           <li><a href="#">Inicio</a></li>
-           <li><a href="#">Productos</a></li>
-           <li><a href="#">Ofertas</a></li>
-           <li><a href="#">Prime</a></li>
-           <li><a href="#"><div>
-                              <span>0</span>
-                              <span ><i class="fa-light fa-cart-shopping"></i></span>
-                            </div>
-                            <div>
-                              <span>
-                                Carrito
-                              </span>
-                            </div></li>
-       </ul>
-   </div>
+        <div class="header-enviar-a">
+            <div class="box-icon-location">
+                <i class="icon-location fa-solid fa-location-dot"></i>
+            </div>
+            <div class="box-texto-enviar-a">
+                <span class="texto-enviar-a"> Enviar a </span>
+            </div>
+            <div class="box-texto-colombia">
+                <span class="texto-colombia"> Colombia </span>
+            </div>
+        </div>
+        <div class="box-header-search-input">
+            <div class="header-search-input">
+                <div class="box-filtro-todos">
+                    <div class="filtro-todos">
+                        <span class="header-todos"> Todos </span>
+                        <i class="icon-chevron fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="box-buscar-amazon">
+                    <div class="buscar-amazon">
+                        <input class="input-busqueda" type="text" placeholder="Buscar Amazon">
+                    </div>
+                </div>
+                <div class="box-lupa">
+                    <div class="lupa">
+                        <i class="icon-lupa fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-flag-country">
+            <div class="box-flag">
+                <img class="flag-usa" src="img/bandera.avif" alt="">
+                <span class="idioma"> ES </span>
+                <i class="icon-chevron-idioma fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
 
-   <div id="mainConten" class="ventas">
-    <div class="box_modal">
-      <div class="modal">
-        <div class="btn-close">
-        <i class="fa-solid fa-xmark"></i>
+        <div class="header-identificate">
+            <span class="txt-hola-identificate"> Hola, identificate</span><br>
+            <span class="txt-cuenta-listas"> Cuenta y Listas </span>
+            <i class="icon-chevron-identificate fa-solid fa-chevron-down"></i>
         </div>
-        <div class="box-main-img-modal">
-          <img class="main-img-modal" src="img/pistola1.jpg" alt="">
+        <div class="header-devoluciones">
+            <span class="txt-devoluciones"> Devoluciones </span>
+            <span class="txt-pedidos"> y Pedidos </span>
         </div>
-        <!-- <div class="img">
-          
-        <div class="img1">
-          <img src="img/pistola1.jpg" alt="">
+        <div class="header-carrito">
+            <div class="box-carrito">
+                <i class="icon-carrito fa-solid fa-cart-shopping"></i>
+                <span class="txt-carrito"> carrito </span>
+            </div>
         </div>
-        <div class="img2">
-          <img src="img/pistola2.jpg" alt="">
+    </header>
+    <nav class="barra-navegacion">
+        <ul class="items-menu">
+            <li class="items"> <i class="menu-hamburguesa fa-solid fa-bars"></i> Todo </li>
+            <li class="items"> Ofertas del Día </li>
+            <li class="items"> Servicio al Cliente </li>
+            <li class="items"> Listas </li>
+            <li class="items"> Tarjetas de Regalo </li>
+            <li class="items"> Vender </li>
+        </ul>
+    </nav>
+    <div class="infoProductoTop">
+        <div class="imgProductoTop">
+            <div class="img">
+                <img class="imgTop" src="img/pistola1.jpg" alt="">
+            </div>
         </div>
-        <div class="img3">
-          <img src="img/pistola3.jpg" alt="">
+        <div class="txtProductoTop">
+            <div class="txt">
+                <!-- <span> MXZ Computadora de escritorio para videojuegos, AMD Ryzen 5 4500, RX 6600 8GB, 16FB DDR4,</span><br> -->
+                <span>BALIT Pistola automatica de juguete de gel - 10 pistolas de juguete de gel con objetivo y gafas para juegos de equipo al aire libre, mas de 12 regalos de cumpleaños, para niños y niñas adulto</span>
+            </div>
         </div>
-        <div class="img4">
-          <img src="img/pistola4.jpg" alt="">
+        <div class="calificaciones">
+            <div class="estrellas">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-regular fa-star"></i>
+                <span class="unidadCalificaciones">492</span>
+            </div>
         </div>
-        <div class="img5">
-          <img src="img/pistola5.jpg" alt="">
+        <div class="precio">
+            <span class="peso"> $ </span>
+            <span class="precioOfi"> 19 </span>
+            <span class="precioPeque"> 99 </span>
         </div>
-        <div class="img6">
-          <img src="img/pistola6.jpg" alt="">
-        </div> -->
+        <div class="prime">
+            <i class="icon-prime fa-solid fa-check"></i>
+            <span class="txtPrime"> prime </span>
         </div>
-      </div>
     </div>
-   </div>
+    <div class="volverPatrocinador">
+        <div class="volver">
+            <i class="chevron-left fa-solid fa-chevron-left"></i>
+            <span class="volverResult"> Volver a resultados </span>
+        </div>
+        <div class="patrocinador">
+            <span class="patro"> Patrocinado </span>
+            <i class="exclaim fa-solid fa-circle-exclamation"></i>
+        </div>
+    </div>
     
+    <div class="contenedor">
+        <div class="imagenesPeque">
+            <div class="imags">
+                <img id="image-1" class="imagesReducidas imgActive" src="img/pistola1.jpg" alt="">
+                <img id="image-2" class="imagesReducidas" src="img/pistola2.jpg" alt="">
+                <img id="image-3" class="imagesReducidas" src="img/pistola3.jpg" alt="">
+                <img id="image-4" class="imagesReducidas" src="img/pistola4.jpg" alt="">
+                <!-- <img id="image-5" class="imagesReducidas" src="img/pistola.jpg" alt=""> -->
+            </div>
+        </div>
+        <div class="producto">
+            <img id="imagePrincipal" class="img-zoom img-producto" onclick="abrir()" src="img/pistola1.jpg" alt="">
+            <label style="font-size: .8em; color: gray;"> Pasa el mouse encima de la imagen para aplicar zoom  </label>
+        </div>
+        <div class="iconChevronTop">
+            <div class="iconArriba">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            </div>
+        </div>
+        <div class="text-all">
+            <div class="textComputer">
+                <p>JANNIRESS Juguete eléctrico de bolas de gel, ecológico, automático, con más de 60000 cuentas de agua y gafas, para actividades al aire libre, juego en equipo, a partir de 12 años, verde, unisex para niños</p>
+            </div>
+        </div>
+        <div class="box-info">
+            <div class="box">
+                <div class="precioInfo">
+                    <span class="us"> US$ </span>
+                    <span class="preci">19 </span>
+                    <span class="preciPeque"> 98 </span>
+                </div>
+                <div class="txtGeneralInfo">
+                    <p>Sin depósito de derechos de importación y US$10.10 de envío a Colombia <span class="detalles"> Detalles <i class="iconDetalles fa-solid fa-chevron-down"></i></span>
+                        Entrega el <span class="entrega"> viernes, 24 de noviembre </span> a Colombia </p><br>
+                    <p>O entrega más rápida el viernes, <span class="entrega"> 17 de noviembre. </span> Realiza el pedido en <span class="time"> 9 hrs 39 mins </span></p>
+                </div>
+                <div class="envios">
+                    <i class="locationEnvios fa-solid fa-location-dot"></i>
+                    <span class="enviar-a"> Enviar a Colombia </span>
+                </div>
+                <div class="disponible">
+                    <span class="uniDisponible"> Disponible </span>
+                </div>
+                <div class="cantidad">
+                    <span class="cantidadPro"> Cantidad:   1 </span>
+                    <i class="iconCantidad fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="buttons">
+                    <button class="button-1"> Agregar al carrito </button>
+                    <button class="button-2"> Comprar ahora </button>
+                </div>
+            </div>
+        </div>
+        
+        <main id="box-modal">
+            <div class="modal" id="modal">
+                <div class="main-content">
+                    <div class="img-product">
+                        <div id="boxMainImg" class="box-main box-img-principal">
+                            <img id="img-principal" class="img-principal" src="img/pistola1.jpg" alt="" srcset="">
+                        </div>
+                        
+                    </div>
+                    <div class="box-all">
+                        <div class="info-product">
+                            <div class="box-text-product">
+                                <p> JANNIRESS Juguete eléctrico de bolas de gel, ecológico, automático, con más de 60000 cuentas de agua y gafas, para actividades al aire libre, juego en equipo, a partir de 12 años, verde, unisex para niños </p>
+                            </div>
+                        
+                        </div>
+                        <div id="imagenes" class="imagenes">
+                            
+                                <img id="img-1" class="img-reducidas active" src="img/pistola1.jpg" alt="">
+                                <img id="img-2" class="img-reducidas" src="img/pistola2.jpg" alt="">
+                                <img id="img-3" class="img-reducidas" src="img/pistola3.jpg" alt="">
+                                <img id="img-4" class="img-reducidas" src="img/pistola4.jpg" alt="">
+                                <!-- <img id="img-5" class="img-reducidas" src="img/pistola.jpg" alt=""> -->
+                           
+                        </div>
+                    </div>
+                    <div class="box-close">
+                        <div id="close" class="box-icon-close">
+                            <i class="icon-close fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </main>
+    </div>
     
-
 
     <script src="javascript/amazon.js"></script>
-
-    
 </body>
 </html>
